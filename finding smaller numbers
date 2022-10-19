@@ -1,0 +1,4 @@
+def smaller(arr):
+    return [len(sorted(arr[i:])[:sorted(arr[i:]).index(num)]) for i, num in enumerate(arr) ]
+
+   
